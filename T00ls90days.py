@@ -11,7 +11,8 @@ def searchinmps(name):
 #寻找公众号名称
 robot  = Robot()
 my_mp =searchinmps('T00ls')
-
+my_mp.send('3')
+my_mp.send('4')
 #设置时间间隔
 interval = sleeptime(23,50,0)
 
